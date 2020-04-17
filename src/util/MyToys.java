@@ -16,7 +16,7 @@ public class MyToys {
     //cF: compute Factorial, tính n! giai thừa = 1.2.3...n
     //n! bùng nổ value nhanh nên dùng long lưu kết quả
     //dành cho CI(Continuos Integration), đệ quy recursion sau
-    public static long CF(int n) {
+    public static long cF(int n) {
         if (n < 0 || n > 15) {
             throw new IllegalArgumentException("n mút be beetween 0..15");
         }
